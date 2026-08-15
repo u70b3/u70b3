@@ -1,0 +1,38 @@
+name: Update contribution stats
+
+on:
+  schedule:
+    - cron: "17 3 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-contribution-stats
+  cancel-in-progress: true
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+
+    steps:
+      - name: Check out profile
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+
+      - name: Collect contribution stats
+        id: stats
+        env:
+          CONTRIBUTION_ORGANIZATIONS: apache,duckdb,lance-format,lancedb
+          GH_TOKEN: ${{ github.token }}
+        run: python3 .github/scripts/update_contribution_stats.py "$GITHUB_REPOSITORY_OWNER"
+
+      - name: Commit changed stats
+        if: steps.stats.outputs.changed == 'true'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add README.md
+          git commit -m "docs: update contribution stats"
+          git push
