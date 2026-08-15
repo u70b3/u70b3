@@ -1,16 +1,19 @@
-## Hi there 👋
+# Hi, I'm Kid 👋
 
-<!--
-**u70b3/u70b3** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+I build and contribute to open-source data systems, with a focus on
+**lakehouse storage, query execution, and vector search**.
 
-Here are some ideas to get you started:
+- Mainly working with **Rust and C++**
+- Interested in **correctness, performance, concurrency, and interoperability**
+- Contributing across **Lance / LanceDB**, **DuckDB / DuckLake**, and
+  **Apache DataFusion / Iceberg / Paimon / Doris**
+- Occasionally working across Java, Python, Node.js, and SQL integrations
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+### Current interests
+
+- Vector indexing and reliable storage systems
+- Query engine correctness and performance
+- Lakehouse table formats and catalog integrations
+- Cross-language data-system APIs
+
+[Browse my open-source contributions →](https://github.com/search?q=is%3Apr+author%3Au70b3&type=pullrequests)
