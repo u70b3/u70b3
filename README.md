@@ -19,7 +19,7 @@ Recent contributions span **Lance / LanceDB**, **DuckDB / DuckLake**, and
 **Apache DataFusion / Comet / Iceberg / Paimon / Doris**.
 
 <!-- contribution-stats:start -->
-Selected upstream contributions: 40 merged pull requests across 11 repositories.
+Selected upstream contributions: 41 merged pull requests across 12 repositories.
 <!-- contribution-stats:end -->
 
 [Browse my open-source contributions →](https://github.com/search?q=is%3Apr+author%3Au70b3&type=pullrequests)
