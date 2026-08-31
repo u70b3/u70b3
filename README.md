@@ -24,13 +24,13 @@ such as **Doris, DataFusion/Comet, Iceberg, and Paimon**.
 - **Correctness & portability** — ARM64 and weak-memory hardening across
   [DuckDB](https://github.com/duckdb/duckdb/pull/24884),
   [Paimon C++](https://github.com/apache/paimon-cpp/pull/203), and
-  [Doris](https://github.com/apache/doris/pull/66857) *(under review)*.
+  [Doris](https://github.com/apache/doris/pull/66857).
 
 - **Index algorithms & lifecycle** — [audited Lance HNSW against the paper](https://github.com/lance-format/lance/issues/8036)
   and [fixed level-0 search](https://github.com/lance-format/lance/pull/8035);
   building Doris × Lance indexing from [`SHOW INDEX`](https://github.com/apache/doris/pull/66637)
   and [distributed segment builds](https://github.com/lance-format/lance-c/pull/57)
-  to [durable jobs](https://github.com/apache/doris/pull/67235) *(under review)*.
+  to [durable jobs](https://github.com/apache/doris/pull/67235).
 
 - **Query & lakehouse semantics** — added [Parquet `INTERVAL` Bloom pruning](https://github.com/duckdb/duckdb/pull/24277),
   protected [`decode` input immutability](https://github.com/duckdb/duckdb/pull/24353),
