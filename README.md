@@ -46,7 +46,7 @@ such as **Doris, DataFusion/Comet, Iceberg, and Paimon**.
   instead of returning false success.
 
 <!-- contribution-stats:start -->
-Selected upstream contributions: 47 merged pull requests across 14 repositories.
+Selected upstream contributions: 48 merged pull requests across 14 repositories.
 <!-- contribution-stats:end -->
 
 [Browse all my pull requests →](https://github.com/search?q=is%3Apr+author%3Au70b3&type=pullrequests)
