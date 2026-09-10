@@ -96,7 +96,8 @@ def main() -> None:
     summary = (
         f"Selected upstream contributions: {merged_pull_requests} merged "
         f"{pull_request_label} across "
-        f"{len(repositories)} {repository_label}."
+        f"{len(repositories)} {repository_label} in the "
+        f"Apache, DuckDB and Lance ecosystems."
     )
 
     original = readme_path.read_text(encoding="utf-8")
