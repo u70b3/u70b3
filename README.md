@@ -25,7 +25,7 @@ performance problems into tested upstream changes in **Rust and C++**.
   barrier is silent on x86](https://github.com/apache/paimon-cpp/pull/203).
 
 <!-- contribution-stats:start -->
-Selected upstream contributions: 54 merged pull requests across 14 repositories in the Apache, DuckDB and Lance ecosystems.
+Selected upstream contributions: 55 merged pull requests across 15 repositories in the Apache, DuckDB and Lance ecosystems.
 <!-- contribution-stats:end -->
 
 [Browse merged pull requests →](https://github.com/search?q=is%3Apr+author%3Au70b3+is%3Amerged&type=pullrequests) · [lucian1412@outlook.com](mailto:lucian1412@outlook.com)
