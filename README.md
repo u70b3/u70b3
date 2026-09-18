@@ -34,7 +34,7 @@ I also work on measured performance improvements, including
 (reported **9.3–11.7×** in 8,192-row expression microbenchmarks).
 
 <!-- contribution-stats:start -->
-Selected upstream contributions: 56 merged pull requests across 15 repositories in the Apache, DuckDB and Lance ecosystems.
+Selected upstream contributions: 57 merged pull requests across 15 repositories in the Apache, DuckDB and Lance ecosystems.
 <!-- contribution-stats:end -->
 
 [Browse public upstream PRs →](https://github.com/search?q=is%3Apr+author%3Au70b3+is%3Amerged+org%3Aapache+org%3Aduckdb+org%3Alance-format+org%3Alancedb&type=pullrequests)
